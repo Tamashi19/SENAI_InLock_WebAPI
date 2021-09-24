@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SENAI_InLock_WebAPI", "SENAI_InLock_WebAPI\SENAI_InLock_WebAPI.csproj", "{9AE821D0-E650-48EC-9C57-2B6ED1018A59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SENAI_InLock_WebAPI", "SENAI_InLock_WebAPI\SENAI_InLock_WebAPI.csproj", "{9AE821D0-E650-48EC-9C57-2B6ED1018A59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

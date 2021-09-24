@@ -8,7 +8,7 @@ namespace senai.inLock.webAPI.Domains
 {
     public class UsuarioRepository : IUsuarioRepository
     {
-        private readonly string stringConexao = "Data Source=DESKTOP-PM35QPG\\SQLEXPRESS; initial catalog=inLockGames; user Id=sa; pwd=senai@132";
+        private readonly string stringConexao = "Data Source=NOTE0113E2\\SQLEXPRESS; initial catalog=inLockGames; user Id=sa; pwd=Senai@132";
 
         public Usuario Login(string email, string senha)
         {

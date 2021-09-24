@@ -6,14 +6,14 @@ using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
-using Estudio = SENAI_InLock_WebAPI.Domains.Estudio;
+
 
 namespace SENAI_InLock_WebAPI.Repositories
 {
 
-    public class EstudioRepository : IEstudioRepository
+    public class EstudioRepository : IEstudiosRepository
     {
-    private readonly string stringConexao = "Data Source=NOTE0113E1\\SQLEXPRESS; initial catalog=inLockGames; user Id=sa; pwd=Senai@132";
+    private readonly string stringConexao = "Data Source=NOTE0113E2\\SQLEXPRESS; initial catalog=inLockGames; user Id=sa; pwd=Senai@132";
         
         public List<Estudio> ListarComJogos()
         {
@@ -90,9 +90,6 @@ namespace SENAI_InLock_WebAPI.Repositories
             return listaEstudios;
         }
 
-        List<senai.inLock.webAPI.Domains.Estudio> IEstudioRepository.ListarComJogos()
-        {
-            throw new NotImplementedException();
-        }
+      
     }
 }
